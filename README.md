@@ -15,7 +15,7 @@ Users should be able to:
 
 ## Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/rock-paper-scissors-xjBok03EP)
 - [Live Site URL](https://rock-paper-scissors-developingweb.vercel.app)
 
 ## Built with
