@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+
+  <!-- css -->
+  <link rel="stylesheet" href="../css/bonus/style.css">
+  <link rel="stylesheet" href="../css/bonus/queries.css">
+
+  <!-- js -->
+  <script defer src="../js/bonus/script.js"></script>
+
+  <title>Frontend Mentor | Rock, Paper, Scissors, Lizard, Spock</title>
+</head>
+<body>
+  
+  <!---------------------------- header ----------------------------->
+  <header>
+    <img src="../images/logo-bonus.svg" alt="Rock, Paper, Scissors, Lizard, Spock">
+
+    <div>
+      <p>score</p>
+      <h1 class="score-text">0</h1>
+    </div>
+  </header>
+
+  <!-------------------- user choices container ------------------->
+  <div class="user-choices-container">
+    <img src="../images/bg-pentagon.svg" alt="">
+
+    <div class="scissors"></div>
+    <div class="paper"></div>
+    <div class="rock"></div>
+    <div class="lizard"></div>
+    <div class="spock"></div>
+  </div>
+
+  <!-------------------------- playing container ----------------------->
+  <div class="playing-container display-none">
+    <div class="user-selection">
+      <div>
+        <div class="user-selection-div"></div>
+        <div class="user-box">
+          <div class="box"></div>
+          <div class="box large"></div>
+          <div class="box larger"></div>
+        </div>
+      </div>
+      <p>You selected</p>
+    </div>
+
+    <div class="result display-none">
+      <p class="result-text">You win</p>
+      <button class="play-again">play again</button>
+    </div>
+    
+    <div class="computer-selection">
+      <div>
+        <div class="computer-selection-container">
+          <div class="computer-selection-div"></div>
+          <div class="shadow"></div>
+        </div>
+        <div class="computer-box">
+          <div class="box"></div>
+          <div class="box large"></div>
+          <div class="box larger"></div>
+        </div>
+      </div>
+      <p>The house picked</p>
+    </div>
+  </div>
+
+  <!-------------------------- result for mobile --------------------->
+  <div class="result result-mobile display-none">
+    <p class="result-text">You win</p>
+    <button class="play-again">play again</button>
+  </div>
+
+  <!----------------------------------- rules ---------------------------->
+  <button class="rules-btn">Rules</button>
+
+  <div class="rules-container display-none">
+    <div class="rules">
+      <div>
+        <p>rules</p>
+
+        <div class="close-btn">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+      <img src="../images/image-rules-bonus.svg" alt="rules">
+    </div>
+  </div>
+
+  <!------------------------ easy level button ------------------------>
+  <a href="../index.html" class="easy-level-btn">Easy Level</a>
+
+</body>
+</html>

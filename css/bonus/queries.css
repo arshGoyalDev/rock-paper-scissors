@@ -1,0 +1,118 @@
+
+/* for devices with width of 500px or more */
+@media (min-width: 500px) {
+  .rules{
+    width: 450px;
+  }
+}
+
+/* for devices with width of 600px or more */
+@media (min-width: 600px) {
+  header{
+    width: 520px;
+  }
+
+  .playing-container{
+    width: 520px;
+  }
+  .user-selection,
+  .computer-selection{
+    flex-direction: column-reverse;
+  }
+
+  .user-selection > div,
+  .computer-selection > div{
+    margin-top: 50px;
+  }
+}
+
+/* for devices with width of 1000px or more */
+@media (min-width: 740px) {
+  .user-choices-container{
+    margin-top: 60px;
+  }
+  .user-choices-container img{
+    width: 380px;
+    height: 340px;
+  }
+
+  .rock,
+  .paper,
+  .scissors,
+  .spock,
+  .lizard{
+    width: 140px;  height: 140px;
+    margin-bottom: 0;
+    background-size: 50px;
+  }
+}
+
+
+/* for devices with width of 800px or more */
+@media (min-width: 900px) {
+  
+  .user-selection-div, 
+  .computer-selection-container,
+  .playing-container .rock,
+  .playing-container .paper,
+  .playing-container .scissors,
+  .playing-container .lizard,
+  .playing-container .spock{
+    width: 200px;
+    height: 200px;
+    background-size: 70px;
+    border-width: 20px;
+  }
+  
+  .box:first-child{
+    width: 280px; height: 280px;
+  }
+  .box.large {
+    width: 360px;
+    height: 360px;
+  }
+  .larger {
+    height: 440px;
+    width: 440px;
+    transition: 1.2s;
+  }
+}
+
+/* for devices with width of 1000px or more */
+@media (min-width: 1000px) {
+  header{
+    width: 700px;
+  }
+  
+  .rock,
+  .paper,
+  .scissors,
+  .lizard,
+  .spock{
+    width: 140px; height: 140px;
+  }
+  .playing-container{
+    width: 700px;
+  }
+  
+  .playing-container .result{
+    display: flex;
+    margin: 0;
+  }
+  .result-mobile{
+    display: none;
+  }
+  
+  .rules-btn{
+    position: absolute;
+    bottom: 40px;  right: 40px;
+    transform: translate(0);
+    margin: 0;
+  }
+  .easy-level-btn{
+    position: absolute;
+    bottom: 40px;  left: 40px;
+    transform: translate(0);
+    margin: 0;
+  }
+}
