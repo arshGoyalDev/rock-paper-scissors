@@ -13,11 +13,6 @@ Users should be able to:
 - Play Rock, Paper, Scissors against the computer
 - Play Rock, Paper, Scissors, Lizard, Spock against the computer
 
-## Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/rock-paper-scissors-xjBok03EP)
-- [Live Site URL](https://rock-paper-scissors-developingweb.vercel.app)
-
 ## Built with
 
 - Semantic HTML5 markup
