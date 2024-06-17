@@ -28,4 +28,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@developingWeb](https://www.frontendmentor.io/profile/developingWeb)
+- Frontend Mentor - [@arshGoyalDev](https://www.frontendmentor.io/profile/arshGoyalDev)
